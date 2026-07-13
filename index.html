@@ -14,6 +14,22 @@
     h1 {
         color: #4ade80; 
     }
+    button {
+    background-color: #4ade80; /* Kulay green ang button */
+    color: #1e1e24;            /* Maitim ang text sa loob */
+    padding: 10px 20px;        /* Palalakihin ang button */
+    border: none;              /* Tatanggalin ang border */
+    border-radius: 5px;        /* Gagawing medyo pabilog ang gilid */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;           /* Magiging "kamay" ang mouse kapag tinapat */
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #22c55e; /* Medyo madidiliman ang green kapag tinapatan ng mouse */
+    transform: scale(1.05);    /* LALAKI NG KONTI KAPAG TINAPATAN */
+}
 </style>
 <script>
     function pindot() {
@@ -26,4 +42,9 @@
     <p>mag skwela kog tarong.</p>
     </body>
     <button onclick="pindot()">Pindutin Mo Ako</button>
+    <p>
+    <a href="https://www.facebook.com/jesner.aranda" target="_blank" style="color: #60a5fa; text-decoration: none;">
+        Bisitahin ang aking Facebook Profile 🌐
+    </a>
+</p>
     </html>
